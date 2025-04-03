@@ -13,7 +13,7 @@
             "id": 2,
             "name": "Coffee",
             "price": 19.99,
-            "image": "/media/products/coffee-light.png",
+            "image": "/media/products/Coffee-light.png",
             "category": "test1",
             "is_featured": true,
             "is_popular": true
@@ -40,7 +40,7 @@
             "id": 2,
             "name": "Coffee",
             "price": 19.99,
-            "image": "/media/products/coffee-light.png",
+            "image": "/media/products/Coffee-light.png",
             "category": "test2",
             "is_featured": true,
             "is_popular": true
@@ -58,7 +58,7 @@
             "id": 1,
             "name": "Coffee",
             "price": 29.99,
-            "image": "/media/products/coffee-light.png",
+            "image": "/media/products/Coffee-light.png",
             "category": "test2",
             "is_featured": false,
             "is_popular": true
