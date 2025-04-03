@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const Header = () => {
@@ -24,19 +25,19 @@ const Header = () => {
                 `}</style>
                     <ul className="flex gap-x-4">
                         <li>
-                            <a href="/" className={`${pathname === "/" && 'font-blue-custom'}`}>Home</a>
+                            <Link href="/" className={`${pathname === "/" && 'font-blue-custom'}`}>Home</Link>
                         </li>
                         <li>|</li>
                         <li>
-                            <a href="/about-us" className={`${pathname.includes("/about-us") && 'font-blue-custom'}`}>About</a>
+                            <Link href="/about-us" className={`${pathname.includes("/about-us") && 'font-blue-custom'}`}>About</Link>
                         </li>
                         <li>|</li>
                         <li>
-                            <a href="/" className={`${pathname.includes("/products") && 'font-blue-custom'}`}>Products</a>
+                            <Link href="/" className={`${pathname.includes("/products") && 'font-blue-custom'}`}>Products</Link>
                         </li>
                         <li>|</li>
                         <li>
-                            <a href="/contact" className={`${pathname.includes("/contact") && 'font-blue-custom'}`}>Contact</a>
+                            <Link href="/contact" className={`${pathname.includes("/contact") && 'font-blue-custom'}`}>Contact</a>
                         </li>
                     </ul>
                 </nav>
