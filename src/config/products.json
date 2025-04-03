@@ -1,0 +1,85 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Mixed Fruits",
+            "price": 29.99,
+            "image": "/media/products/mix.png",
+            "category": "test1",
+            "is_featured": true,
+            "is_popular": true
+        },
+        {
+            "id": 2,
+            "name": "Coffee",
+            "price": 19.99,
+            "image": "/media/products/coffee-light.png",
+            "category": "test1",
+            "is_featured": true,
+            "is_popular": true
+        },
+        {
+            "id": 3,
+            "name": "Mix Fruits",
+            "price": 49.99,
+            "image": "/media/products/mix-ass.png",
+            "category": "test1",
+            "is_featured": true,
+            "is_popular": true
+        },
+        {
+            "id": 1,
+            "name": "Mix Fruits - Coffee",
+            "price": 29.99,
+            "image": "/media/products/mix-coffee.png",
+            "category": "test2",
+            "is_featured": true,
+            "is_popular": true
+        },
+        {
+            "id": 2,
+            "name": "Coffee",
+            "price": 19.99,
+            "image": "/media/products/coffee-light.png",
+            "category": "test2",
+            "is_featured": true,
+            "is_popular": true
+        },
+        {
+            "id": 3,
+            "name": "Mix Fruits",
+            "price": 49.99,
+            "image": "/media/products/mix.png",
+            "category": "test2",
+            "is_featured": true,
+            "is_popular": true
+        },
+        {
+            "id": 1,
+            "name": "Coffee",
+            "price": 29.99,
+            "image": "/media/products/coffee-light.png",
+            "category": "test2",
+            "is_featured": false,
+            "is_popular": true
+        },
+        {
+            "id": 2,
+            "name": "Mix Fruits - Coffee",
+            "price": 19.99,
+            "image": "/media/products/mix-coffee.png",
+            "category": "test2",
+            "is_featured": false,
+            "is_popular": true
+        },
+        {
+            "id": 3,
+            "name": "Mix Fruits",
+            "price": 49.99,
+            "image": "/media/products/mix.png",
+            "category": "test2",
+            "is_featured": true,
+            "is_popular": true
+        }
+    ]
+}
