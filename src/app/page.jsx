@@ -38,7 +38,7 @@ export default function Page() {
                 <div className="">
                   {true && (
                     <Image
-                      src={'/media/Coffee-light.png'}
+                      src={'/media/products/Coffee-light.png'}
                       className="mx-auto w-[388px] lg:w-[150]"
                       width={150}
                       height={150}
