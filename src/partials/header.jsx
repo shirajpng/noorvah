@@ -37,7 +37,7 @@ const Header = () => {
                         </li>
                         <li>|</li>
                         <li>
-                            <Link href="/contact" className={`${pathname.includes("/contact") && 'font-blue-custom'}`}>Contact</a>
+                            <Link href="/contact" className={`${pathname.includes("/contact") && 'font-blue-custom'}`}>Contact</Link>
                         </li>
                     </ul>
                 </nav>
