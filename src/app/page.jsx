@@ -12,8 +12,17 @@ export default function Page() {
             <div className="py-10 rounded-md">
               <Suspense>
               <div className="mx-10 bg-linear-to-r from-gray-100 to-gray-50 grid grid-cols-2 lg:cols-1 items-center px-7 xl:px-16">
+                <style jsx>{`
+                    .width300 {
+                      width: 300px;
+                    }
+                    paddingy {
+                      padding-top: 40px;
+                      padding-bottom: 40px;
+                    }
+                `}</style>
                 <div className="order-2 lg:order-0">
-                  <div className="text-center py-10 lg:py-0">
+                  <div className="text-center paddingy">
                     
                       <p className="mb-2 lg:mb-3 text-light dark:text-darkmode-light font-medium md:text-xl">
                         The Essence of Light
@@ -39,7 +48,7 @@ export default function Page() {
                   {true && (
                     <Image
                       src={'/media/products/Coffee-light.png'}
-                      className="mx-auto w-[388px] lg:w-[150]"
+                      className="mx-auto width300"
                       width={150}
                       height={150}
                       alt="banner image"
@@ -53,7 +62,7 @@ export default function Page() {
           </div>
         </section>
         {/* category section  */}
-        <section >
+        <section className="mb-6">
             <div className="text-center mb-6 md:mb-14">
               <p className="text-[30pt] mb-2">Featured Products</p>
             </div>

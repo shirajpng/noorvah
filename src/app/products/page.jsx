@@ -2,7 +2,7 @@ import data from "config/products.json"
 
 export default function Page() {
     return (
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-10 ">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-10 mb-6">
             {data.products.filter((product) => product.is_featured == true).map((product, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-md p-4">
                     <img
