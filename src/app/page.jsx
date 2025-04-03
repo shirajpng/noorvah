@@ -7,6 +7,9 @@ import SkeletonFeaturedProducts from "components/placeholder/SkeletonCategory";
 import FeaturedProducts from "components/homepage/featuredProducts";
 
 export default function Page() {
+  const imageStyle = {
+    width: '300px',
+  }
     return (
       <>
         <section>
@@ -50,9 +53,10 @@ export default function Page() {
                   {true && (
                     <Image
                       src={'/media/products/Coffee-light.png'}
-                      className="mx-auto width300"
-                      width={150}
-                      height={150}
+                      className="mx-auto"
+                      width={300}
+                      height={300}
+                      style={imageStyle}
                       alt="banner image"
                       priority
                     />
