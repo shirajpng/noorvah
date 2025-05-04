@@ -25,19 +25,19 @@ const Header = () => {
                 `}</style>
                     <ul className="flex gap-x-4">
                         <li>
-                            <Link href="/"><a className={`${pathname === "/" && 'font-blue-custom'}`}>Home</a></Link>
+                            <Link href="/" className={`${pathname === "/" && 'font-blue-custom'}`}>Home</Link>
                         </li>
                         <li>|</li>
                         <li>
-                            <Link href="/about-us"><a className={`${pathname.includes("/about-us") && 'font-blue-custom'}`}>About</a></Link>
+                            <Link href="/about-us" className={`${pathname.includes("/about-us") && 'font-blue-custom'}`}>About</Link>
                         </li>
                         <li>|</li>
                         <li>
-                            <Link href="/products"><a className={`${pathname.includes("/products") && 'font-blue-custom'}`}>Products</a></Link>
+                            <Link href="/products" className={`${pathname.includes("/products") && 'font-blue-custom'}`}>Products</Link>
                         </li>
                         <li>|</li>
                         <li>
-                            <Link href="/contact"><a className={`${pathname.includes("/contact") && 'font-blue-custom'}`}>Contact</a></Link>
+                            <Link href="/contact" className={`${pathname.includes("/contact") && 'font-blue-custom'}`}>Contact</Link>
                         </li>
                     </ul>
                 </nav>
