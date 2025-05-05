@@ -12,7 +12,7 @@ export default function FeaturedProducts() {
                     />
                     <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
                     <p className="text-gray-600 mb-2">Description of product {index + 1}.</p>
-                    <p className="text-xl font-bold">Rs {product.price}</p>
+                    {/* <p className="text-xl font-bold">Rs {product.price}</p> */}
                 </div>
             ))}
         </div>
