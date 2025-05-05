@@ -13,8 +13,8 @@ export default function AboutUs() {
             <h1 className="text-[30pt] font-bold mb-4">*Introducing Our New Luxury Candle Collection*</h1>
             <p className="text-lg text-center max-w-2xl">This spring and summer, NOORVAH is proud to unveil two exclusive candle flavors that perfectly capture the essence of the season. Designed with luxurious gel wax, our candles offer a visually stunning, sensory-rich experience.</p>
             <p className="text-lg text-center max-w-2xl">
-                <span className="font-bold">*Mixed Fruit*</span>: A vibrant, refreshing blend of citrus and tropical fruits that awakens your senses and fills your space with a lively, joyful ambiance. It's the essence of summer, bottled into a candle.
-                <span className="font-bold">*Coffee with Ice*</span>: Imagine the crisp, refreshing taste of iced coffee on a hot day. This fragrance combines the rich, bold aroma of freshly brewed coffee with a cool, iced twist—creating a sensory delight that's both invigorating and relaxing.
+                <span className="font-bold">*Mixed Fruit*</span>: A vibrant, refreshing blend of citrus and tropical fruits that awakens your senses and fills your space with a lively, joyful ambiance. It\'s the essence of summer, bottled into a candle.
+                <span className="font-bold">*Coffee with Ice*</span>: Imagine the crisp, refreshing taste of iced coffee on a hot day. This fragrance combines the rich, bold aroma of freshly brewed coffee with a cool, iced twist—creating a sensory delight that\'s both invigorating and relaxing.
             </p>
        </div>
     );
